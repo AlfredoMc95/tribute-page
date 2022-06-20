@@ -1,3 +1,9 @@
+:root{
+ --color-red:#E1452B;
+ --color-cofee:#B78A52;
+ --color-pink:#7D4D57;
+ --color-green:#52634F;
+}
 *
 {
     font-family: 'PT Serif', serif;
