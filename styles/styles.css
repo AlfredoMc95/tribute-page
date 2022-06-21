@@ -4,6 +4,7 @@
     --color-pelo: #41201D;
     --color-pink: #D2B1AD;
     --color-green: #52634F;
+    --color-green-oscuro: #2c352b;
     --color-piso: #8F6C6F;
     --color-letra: #ffffff;
 }
@@ -18,7 +19,6 @@ header ul {
 }
 
 header ul li {
-    margin: 10px 0px;
     padding: 20px 0px;
     border-right: 2px solid var(--color-piso);
     border-left: 2px solid var(--color-piso);
@@ -26,7 +26,10 @@ header ul li {
 
 header ul li a {
     color: var(--color-letra);
-    padding: 17px 20px;
+    padding: 20px 300px;
     font-family: 'PT Serif', serif;
     font-weight: bold;
+}
+header ul li a:hover {
+    background-color: var(--color-green-oscuro);
 }
