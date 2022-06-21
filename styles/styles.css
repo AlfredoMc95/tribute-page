@@ -9,20 +9,21 @@
 }
 header{
     background-color: var(--color-green);
-    display: flex;
-    align-items: center;
 }
 header ul{
-    display: flex;
+    display:grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
 }
 header ul li{
-    margin: 10px 0px;
+    grid-column:2;
+    grid-row: 1;
     padding: 20px 0px;
     border-right: 2px solid var(--color-piso);
+    border-left: 2px solid var(--color-piso);
 }
 header ul li a{
     color: var(--color-letra);
-    padding: 17px 20px;
     font-family: 'PT Serif', serif;
     font-weight: bold;
 }
