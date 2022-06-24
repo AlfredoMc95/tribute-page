@@ -1,5 +1,5 @@
 :root {
-    --color-red: #E1452B;
+    --color-red: #b13b26;
     --color-cofee: #B78A52;
     --color-cofee_claro: #e7b372;
     --color-cofee_oscuro: #795a32;
@@ -7,6 +7,7 @@
     --color-pelo_claro: #974a45;
     --color-pink: #f8e9e4;
     --color-green: #52634F;
+    --color-green_claro: #769172;
     --color-green-oscuro: #2c352b;
     --color-piso: #8F6C6F;
     --color-letra-shadow: #241210;
@@ -82,12 +83,18 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     justify-content: center;
     text-align: center;
 }
+.habilidades{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
 .habilidades__description{
     background-color: var(--color-cofee_oscuro);
     justify-content: center;
     color: var(--color-pink);
     border: 4px solid var(--color-pelo);
-    width: 608px;
+    width: 606px;
     padding: 40px 20px 10px 20px;
     background-color: var(--color-cofee);
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23795a32' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
@@ -112,4 +119,43 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 .claro{
     background-color: var(--color-cofee_claro);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 1217px;
+    height: 100px;
+    font-size: 30px;
+    background-color: var(--color-red);
+    color: var(--color-pink);
+    text-shadow: 5px 5px 6px var(--color-letra-shadow);
+}
+.skin{
+    color: var(--color-pink);
+    width: 1216px;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+.skin__tarjeta{
+    background-color: var(--color-green-oscuro);
+    width: 606px;
+}
+.skin__tarjeta__img{
+    border: solid 5px var(--color-green);
+}
+.skin__tarjeta__info{
+    background-color: var(--color-green_claro);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%232c352b' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    padding: 20px 0px;
+    border: solid 5px  var(--color-green);
+    border-top: 0px;
+    color: var(--color-pink);
 }
